@@ -75,7 +75,12 @@ function App() {
               <Routes>
                 <Route path="/" element={<Dashboard  isDarkMode={isDarkMode}  searchQuery={searchQuery} />} /> {/* Pass searchQuery as a prop */}
                 <Route path="/my-wallet" element={<MyWallet />} />
-                <Route path="/transactions" element={<Transaction />} />
+                <Route path="/transactions" element={<MyWallet />} />
+                <Route path="/crypto" element={<MyWallet />} />
+                <Route path="/message" element={<MyWallet />} />
+                <Route path="/exchange" element={<MyWallet />} />
+                <Route path="/setting" element={<MyWallet />} />
+                <Route path="/security" element={<MyWallet />} />
               </Routes>
             </div>
             <div className={`panel-section ${isActive ? "" : "hide"}`}>

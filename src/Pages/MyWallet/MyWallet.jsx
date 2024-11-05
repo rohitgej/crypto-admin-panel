@@ -1,9 +1,12 @@
 import React from 'react'
-
+import errorImg from "../../assets/errorimg.png"
+import "./MyWallet.css"
 function MyWallet() {
   return (
-    <div>
-      <h1>my wallet</h1>
+    <div className='MyWallet'>
+     
+        <img src={errorImg} alt="error image" />
+    
     </div>
   )
 }
