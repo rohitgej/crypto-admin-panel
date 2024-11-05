@@ -1,0 +1,56 @@
+@import url(./../../Styles/variables.css);
+.summary p{
+    font-size: var(--font-small);
+    color:var(--primary-color) ;
+}
+.chart{
+    margin-top: 3%;
+    border: 1px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 20px;
+}
+.balance{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.summary span{
+   font-size: x-large;
+}
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading button{
+font-size: var(--font-small);
+background-color: var(--secondary-color);
+color: var( --text-light);
+border: none;
+padding: 4px 8px 4px 8px;
+border-radius: 15px;
+}
+
+.chartButton{
+    border: 1px solid var(--primary-color);
+    padding: 4px;
+    display: flex;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+
+@media(max-width: 425px) {
+    .heading {
+     display: flex;
+     flex-direction: column;
+     align-items: start;
+     gap: 5px;
+     margin-bottom: 10px;
+    }
+    .chart{
+        padding: 10px
+    };
+   }

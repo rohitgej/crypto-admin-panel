@@ -1,0 +1,13 @@
+/* utilities.css */
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .m-1 {
+    margin: var(--spacing-xs);
+  }
+  .p-1 {
+    padding: var(--spacing-xs);
+  }
+  

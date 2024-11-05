@@ -1,0 +1,121 @@
+.cryptoList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0 auto;
+}
+
+.upTrend {
+  width: 80%;
+}
+.cryptoIcon{
+    width: 25px;
+    height: 25px;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    background-color: var(--dark-bg);
+    color: var(--text-dark);
+    border-radius: 50%;
+    margin-right: 10%;
+}
+
+.cryptoItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--primary-color);
+
+}
+
+.cryptoInfo {
+  display: flex;
+  align-items: center;
+  
+  
+}
+
+.cryptoText .cryptoName {
+  font-size: var(--font-medium);
+  font-weight: bold;
+}
+
+
+
+.cryptoText .cryptoSymbol {
+  color: var(--primary-color);
+  font-size: var(--font-small);
+}
+
+.marketInfo {
+  text-align: center;
+ 
+}
+
+.marketCapLabel {
+  color: var(--primary-color);
+  font-size: var(--font-small);
+}
+
+.marketCapValue {
+  font-size: var(--font-medium);
+  font-weight: bold;
+}
+
+.changeInfo {
+  text-align: center;
+  flex: 1;
+}
+
+.changeValue {
+  font-size: var(--font-medium);
+ 
+}
+
+.changeValue.positive {
+  color: #00ff00;
+}
+
+.changeValue.negative {
+  color: #ff0000;
+}
+
+.trendIcon {
+  width: 10%;
+}
+
+.actionButtons {
+  display: flex;
+  gap: 10px;
+}
+
+.sellButton,
+.buyButton {
+  padding: 8px 12px;
+  border-radius: 15px;
+  border: none;
+  color: #ff0000;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  font-size: var(--font-medium);
+}
+
+.sellButton {
+  background-color: transparent;
+}
+
+.buyButton {
+  background-color: var(--light-bg);
+  color: var(--secondary-color);
+}
+
+@media(max-width: 375px){
+  .marketInfo{
+    display: none;
+  }
+}

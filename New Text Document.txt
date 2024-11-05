@@ -1,0 +1,54 @@
+crypto-dashboard/
+├── public/
+├── src/
+│   ├── assets/                # Images or icons
+│   ├── components/
+│   │   ├── Sidebar.js
+│   │   ├── Header.js
+│   │   ├── cryptoList.js
+│   │   ├── Transactions.js
+│   │   ├── Portfolio.js
+│   │   └── ThemeToggle.js
+│   ├── data/                  # Mock JSON data
+│   ├── App.js                 # Main app component
+│   ├── index.js
+│   ├── styles/                # CSS Modules or styled-components
+│   └── utils/
+├── README.md
+└── package.json
+
+
+
+src/
+├── assets/                # Images, icons, fonts, etc.
+├── components/            # All React components
+│   ├── Sidebar/
+│   │   ├── Sidebar.js
+│   │   └── Sidebar.module.css  # Component-specific CSS module
+│   ├── Header/
+│   │   ├── Header.js
+│   │   └── Header.module.css
+│   ├── Graph/
+│   │   ├── Graph.js
+│   │   └── Graph.module.css
+│   ├── Portfolio/
+│   │   ├── Portfolio.js
+│   │   └── Portfolio.module.css
+├── styles/                # Global and shared styles
+│   ├── base.css           # Reset or base styles
+│   ├── variables.css      # CSS variables (colors, font sizes, etc.)
+│   ├── typography.css     # Fonts, heading, and text styles
+│   ├── themes.css         # Dark and light theme styles
+│   └── utilities.css      # Utility classes, animations, etc.
+
+
+
+
+
+
+
+
+
+
+
+

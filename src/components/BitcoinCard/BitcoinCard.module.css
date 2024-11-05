@@ -1,0 +1,108 @@
+.cardContainer {
+    width: 80%;
+    margin-top: 6%;
+    border-radius: 12px;
+    border: 1px solid var(--primary-color);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .firstsec{
+    display: flex;
+    align-items: center;
+    gap:10%
+  }
+  .icons{
+    display: flex;
+    color: var(--primary-color);
+  }
+  .icons1:hover{
+    color: var(--secondary-color);
+  }
+  .icons2:hover{
+    color: var(--secondary-color);
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  
+  .logoContainer {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    width: 42px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo {
+    color: var(--text-color);
+    font-size: 18px;
+  }
+  
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cryptoName {
+    margin: 0;
+    font-size: var(--font-medium);
+    font-weight: bold;
+  }
+  
+  .cryptoSymbol {
+    font-size: var(--font-small);
+    color: #888888;
+  }
+  
+  .priceContainer {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+
+  .changePercentage {
+    font-size: var(--font-small);
+    color: var(--secondary-color);
+  }
+  
+  .chartContainer {
+    width: 100%;
+    height: 50px;
+  }
+  
+  .chart {
+    width: 100%;
+    height: 100%;
+  }
+  .dropdown {
+    position: absolute;
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 8px;
+    top: 50px;
+    right: 10px;
+    z-index: 1;
+  }
+  
+  .dropdown p {
+    margin: 0;
+    padding: 8px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  .dropdown p:hover {
+    background-color: #333333;
+  }
+  

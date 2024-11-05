@@ -1,0 +1,81 @@
+.cardContainer {
+    width: 80%;
+    border: 1px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 16px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .title {
+    font-size: var(--font-medium);
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .addButton {
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    font-size: var(--font-small);
+    color: var(--text-light);
+    cursor: pointer;
+  }
+  
+  .portfolioList {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .portfolioItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid #333;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    background-color: #333;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .details {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .cryptoName {
+    font-size: var(--font-medium);
+    font-weight: bold;
+  }
+  
+  .cryptoAction {
+    font-size: var(--font-small);
+    color: var(--primary-color);
+  }
+  
+  .cryptoTime {
+    font-size: var(--font-small);
+    color: var(--primary-color);
+  }
+  
+  .amount {
+    display: flex;
+    flex-direction: column;
+    font-size: var(--font-medium);
+    text-align: end;
+  }
+  

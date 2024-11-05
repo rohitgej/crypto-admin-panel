@@ -1,0 +1,21 @@
+:root {
+  --dark-bg: #111111;
+  --light-bg: #ffffff;
+  --text-light: #f5f5f5;
+  --text-dark: #333;
+  --bg-color: var(--dark-bg); /* Initial background color */
+  --bg-colori: var(--light-bg);
+  --text-colori: var(--text-dark); 
+  --text-color: var(--text-light); /* Initial text color */
+  --primary-color: #636262;
+  --secondary-color: #3ba904;
+  /* Font Sizes */
+  --font-small: 0.65rem;
+  --font-medium: 0.7rem;
+  --font-large: 1.25rem;
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+}

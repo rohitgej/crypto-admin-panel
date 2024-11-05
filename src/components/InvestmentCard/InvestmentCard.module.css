@@ -1,0 +1,93 @@
+.cardContainer {
+    width: 85%;
+    height: 100%;
+   border: 1px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+  }
+  
+  .amount {
+    font-weight: bold;
+    margin: 0;
+  }
+
+
+  
+  .dateRange {
+    font-size: var( --font-small);
+    color:var(--primary-color);
+  }
+  
+  .label {
+    font-size: var(--font-small);
+    color: var(--primary-color);
+    margin: 0;
+  }
+  
+  .timeframeButton {
+    font-size: var(--font-small);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    padding: 2px;
+    text-align: center;
+    width: 40%;
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: end;
+  }
+  
+  .chartContainer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    height: 50px;
+    margin-top: 10px;
+  }
+  
+  .chartBar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    height: 100%;
+  }
+  
+  .bar {
+    width: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 15px;
+  }
+  
+  .monthLabel {
+    font-size: 10px;
+    color: #888888;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .tooltip {
+    position: fixed;
+    transform: translate(-50%, -100%);
+    background-color: #ffffff;
+    color: #000;
+    padding: 4px 8px;
+    font-size: 10px;
+    border-radius: 8px;
+    pointer-events: none;
+    z-index: 10;
+  }
+  

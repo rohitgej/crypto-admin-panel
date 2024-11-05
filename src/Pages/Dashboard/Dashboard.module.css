@@ -1,0 +1,28 @@
+@import url(./../../Styles/variables.css);
+.chartSection {
+  width: 88%;
+}
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+.recentTran{
+    width: 88%;
+    margin-top: 2%;    
+}
+
+.recentTran h5{
+    margin-bottom: 2%;    
+}
+.shades{
+    width: 100%;
+    height: 10%;
+    background-image: linear-gradient(#ffffff00,#111111);
+    position:fixed;
+    bottom: 0;
+    
+  }

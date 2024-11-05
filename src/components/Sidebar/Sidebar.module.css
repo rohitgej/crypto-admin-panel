@@ -1,0 +1,169 @@
+@import url(../../Styles/variables.css);
+.Slidebar {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  width: 17%;
+  border-right: 1px solid #4d4c4c;
+  position: fixed;
+  height: 100vh;
+  z-index: 3;
+} 
+
+.logo {
+  width: 80%;
+  max-width: 120px;
+}
+
+.LogoSec{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crossBtn{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 20px;
+}
+
+.menuSection {
+  padding-left: 2%;
+}
+.menuSection h6 {
+  padding: 8px;
+  margin-left: 3%;
+
+}
+.menuSection a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+}
+.menuSection li {
+  padding-left: 20%;
+  width: 80%;
+  padding: 8px;
+  font-size: var(--font-medium);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.icon {
+  font-size: large;
+}
+
+.menuSection li:hover .icon {
+  color: var(--secondary-color);
+}
+.menuSection li:hover {
+  background-color: rgb(218, 253, 236);
+  border-radius: 20px;
+  color: #111111;
+}
+.active {
+  background-color: rgb(218, 253, 236);
+  border-radius: 20px;
+  color: #111111; /* Adjust as per your design */
+}
+.active .icon{
+  color: var(--secondary-color);
+}
+
+
+.generalSection h6 {
+  margin-top: 20px;
+  padding: 8px;
+  margin-left: 3%;
+}
+
+.generalSection li {
+  padding-left: 20%;
+  width: 80%;
+  padding: 8px;
+  font-size: var(--font-medium);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+.generalSection li:hover {
+  background-color: aliceblue;
+  border-radius: 20px;
+  color: #111111;
+}
+
+.generalSection a {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 8px;
+}
+
+.generalSection li:hover .icon {
+  color: var(--secondary-color);
+}
+
+.logoutButton {
+  background-color: transparent;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--primary-color);
+  width: 80%;
+}
+
+.logout {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  color: rgb(117, 115, 115);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 0;
+}
+.profile {
+  color: var(--text-light);
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-image: url(../../assets/avatar.png);
+  background-position: center;
+  background-size: cover;
+}
+.profileDetails div{
+text-align: start;
+color: var(--text-color);
+}
+.profileDetails div:last-child {
+  font-size: var(--font-small);
+  color: var(--primary-color);
+}
+.logoutIcon{
+  color: var(--text-color);
+  transform: scaleX(-1);
+  font-size: larger;
+  font-weight: bolder;
+}
+
+.crossBtn{
+  display: none;
+}
+
+@media(max-width: 768px) {
+  .Slidebar {
+     width: 50%;
+  }
+  .crossBtn{
+    display: block;
+  }
+}

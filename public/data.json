@@ -1,0 +1,93 @@
+{
+    "dashboardData": [
+      { "date": "1 Mar", "value1": 300, "value2": 150 },
+      { "date": "2 Mar", "value1": 320, "value2": 160 },
+      { "date": "3 Mar", "value1": 370, "value2": 200 },
+      { "date": "4 Mar", "value1": 265, "value2": 100 },
+      { "date": "5 Mar", "value1": 380, "value2": 220 },
+      { "date": "6 Mar", "value1": 390, "value2": 210 },
+      { "date": "7 Mar", "value1": 360, "value2": 180 },
+      { "date": "8 Mar", "value1": 400, "value2": 230 },
+      { "date": "9 Mar", "value1": 420, "value2": 240 },
+      { "date": "10 Mar", "value1": 410, "value2": 230 },
+      { "date": "11 Mar", "value1": 430, "value2": 250 },
+      { "date": "12 Mar", "value1": 450, "value2": 260 },
+      { "date": "13 Mar", "value1": 440, "value2": 255 },
+      { "date": "14 Mar", "value1": 460, "value2": 270 },
+      { "date": "15 Mar", "value1": 450, "value2": 265 },
+      { "date": "16 Mar", "value1": 470, "value2": 280 },
+      { "date": "17 Mar", "value1": 480, "value2": 285 },
+      { "date": "18 Mar", "value1": 490, "value2": 290 },
+      { "date": "19 Mar", "value1": 500, "value2": 300 },
+      { "date": "20 Mar", "value1": 510, "value2": 310 },
+      { "date": "21 Mar", "value1": 495, "value2": 305 },
+      { "date": "22 Mar", "value1": 505, "value2": 310 },
+      { "date": "23 Mar", "value1": 515, "value2": 315 },
+      { "date": "24 Mar", "value1": 525, "value2": 320 },
+      { "date": "25 Mar", "value1": 515, "value2": 310 },
+      { "date": "26 Mar", "value1": 530, "value2": 330 },
+      { "date": "27 Mar", "value1": 540, "value2": 335 },
+      { "date": "28 Mar", "value1": 545, "value2": 340 },
+      { "date": "29 Mar", "value1": 535, "value2": 330 },
+      { "date": "30 Mar", "value1": 550, "value2": 345 },
+      { "date": "31 Mar", "value1": 560, "value2": 350 }
+    ],
+    "investmentData": [
+        { "month": "Jan", "value": 70 },
+        { "month": "Feb", "value": 40 },
+        { "month": "Mar", "value": 90 },
+        { "month": "Apr", "value": 50 },
+        { "month": "May", "value": 30 },
+        { "month": "Jun", "value": 60 }
+      ],
+      "cryptoData": [
+        {
+          "id": "1",
+          "name": "Bitcoin",
+          "symbol": "BTC/AUD",
+          "marketCap": "$20,356,211",
+          "change": "+3.23%",
+          "trend": "up"
+        },
+        {
+          "id": "2",
+          "name": "Ethereum",
+          "symbol": "ETH/AUD",
+          "marketCap": "$35,216,971",
+          "change": "+1.15%",
+          "trend": "up"
+        },
+        {
+          "id": "3",
+          "name": "Cardano",
+          "symbol": "ADA/AUD",
+          "marketCap": "$15,216,971",
+          "change": "-0.88%",
+          "trend": "down"
+        },
+        {
+          "id": "4",
+          "name": "EOS",
+          "symbol": "EOS/AUD",
+          "marketCap": "$25,216,971",
+          "change": "+1.15%",
+          "trend": "up"
+        },
+        {
+          "id": "5",
+          "name": "Polkadot",
+          "symbol": "DOT/AUD",
+          "marketCap": "$82,671,823",
+          "change": "2.39%",
+          "trend": "up"
+        }
+       
+      ],
+      "portfolioData": [
+        { "name": "Bitcoin", "action": "Buy", "amount": -5642, "time": "Today, 15:20 PM", "symbol": "BTC", "color": "red" },
+        { "name": "Ethereum", "action": "Received", "amount": "0.245", "time": "Today, 10:20 AM", "symbol": "ETH", "color": "#00FF00" },
+        { "name": "Polkadot", "action": "Buy", "amount": -3100, "time": "Today, 9:20 AM", "symbol": "DOT", "color": "red" },
+        { "name": "EOS", "action": "Buy", "amount": -1.235, "time": "Yesterday, 15:20 PM", "symbol": "EOS", "color": "red" },
+        { "name": "Cardano", "action": "Received", "amount": "3612", "time": "Yesterday, 17:20 PM", "symbol": "ADA", "color": "#00FF00" }
+      ]
+  }
