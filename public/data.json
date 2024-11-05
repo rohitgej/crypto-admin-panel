@@ -84,10 +84,10 @@
        
       ],
       "portfolioData": [
-        { "name": "Bitcoin", "action": "Buy", "amount": -5642, "time": "Today, 15:20 PM", "symbol": "BTC", "color": "red" },
-        { "name": "Ethereum", "action": "Received", "amount": "0.245", "time": "Today, 10:20 AM", "symbol": "ETH", "color": "#00FF00" },
-        { "name": "Polkadot", "action": "Buy", "amount": -3100, "time": "Today, 9:20 AM", "symbol": "DOT", "color": "red" },
-        { "name": "EOS", "action": "Buy", "amount": -1.235, "time": "Yesterday, 15:20 PM", "symbol": "EOS", "color": "red" },
-        { "name": "Cardano", "action": "Received", "amount": "3612", "time": "Yesterday, 17:20 PM", "symbol": "ADA", "color": "#00FF00" }
+        { "name": "Bitcoin", "action": "Buy", "amount": -5642, "time": "Today, 15:20 PM", "symbol": "BTC", "color": "red", "logo":"LuBitcoin" },
+        { "name": "Ethereum", "action": "Received", "amount": "0.245", "time": "Today, 10:20 AM", "symbol": "ETH", "color": "#00FF00","logo":"<LuBitcoin/>" },
+        { "name": "Polkadot", "action": "Buy", "amount": -3100, "time": "Today, 9:20 AM", "symbol": "DOT", "color": "red","logo":"<LuBitcoin/>" },
+        { "name": "EOS", "action": "Buy", "amount": -1.235, "time": "Yesterday, 15:20 PM", "symbol": "EOS", "color": "red","logo":"<LuBitcoin/>" },
+        { "name": "Cardano", "action": "Received", "amount": "3612", "time": "Yesterday, 17:20 PM", "symbol": "ADA", "color": "#00FF00", "log":"<LuBitcoin/>" }
       ]
   }

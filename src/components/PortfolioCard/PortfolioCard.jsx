@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import styles from './../PortfolioCard/PortfolioCard.module.css';
 
+
 const PortfolioCard = () => {
   const [portfolioData, setPortfolioData] = useState([]);
 
@@ -20,7 +21,7 @@ const PortfolioCard = () => {
       <div className={styles.portfolioList}>
         {portfolioData.map((item, index) => (
           <div key={index} className={styles.portfolioItem}>
-            <div className={styles.icon}>{/* Placeholder for icon */}</div>
+           
             <div className={styles.details}>
               <span className={styles.cryptoName}>{item.name}</span>
               <span className={styles.cryptoAction}>{item.action}</span>

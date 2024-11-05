@@ -13,8 +13,18 @@ function App() {
   const [isSidebarVisible, setSidebarVisible] = useState(false);
   const [isActive, setActive] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [isDarkMode, setIsDarkMode] = useState(true); // Dark mode state
+  const [isDarkMode, setIsDarkMode] = useState(true); 
 
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.style.setProperty("--bg-color", "var(--dark-bg)");
+      document.documentElement.style.setProperty("--text-color", "var(--text-light)");
+    } else {
+      document.documentElement.style.setProperty("--bg-color", "var(--light-bg)");
+      document.documentElement.style.setProperty("--text-color", "var(--text-dark)");
+    }
+  }, [isDarkMode]);
+  
   const toggleSidebar = () => {
     setSidebarVisible(!isSidebarVisible);
   };

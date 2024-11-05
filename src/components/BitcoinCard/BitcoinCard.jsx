@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import classNames from "./BitcoinCard.module.css"; // Ensure this path is correct
+import classNames from "./BitcoinCard.module.css"; 
 import { IoMdArrowDropup } from "react-icons/io";
 import { IoRefreshOutline } from "react-icons/io5";
 import { MdCurrencyBitcoin } from "react-icons/md";
